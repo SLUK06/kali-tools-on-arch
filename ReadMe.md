@@ -2,32 +2,31 @@
 
 "Kali on Arch" is an automated script to install Kali Linux pentesting tools on Arch Linux.
 
-## Resumo do script
+## Script Summary
 
-Modifica o arquivo /etc/pacman.conf e adiciona o repositório do black arch;
+Modifies the /etc/pacman.conf file and adds the BlackArch repository.
 
-Atualiza o sistema.
+Updates the system.
 
-Instala 241 ferramentas de pentest como Nmap, Aircrack-ng, Hydra, etc.
+Installs 241 penetration testing tools such as Nmap, Aircrack-ng, Hydra, etc.
 
+## How to Use
 
-## Como Usar
-
-Clone o repositório:
+Clone the repository:
 ```shell
 git clone https://github.com/SLUK06/kali-tools-on-arch.git
 ```
-Entre no diretório criado:
+Enter the created directory:
 ```shell
 cd kali-tools-on-arch
 ```
 
-Compile o script utilizando o gcc:
+Compile the script using gcc:
 ```shell
 gcc -o KaliOnArch KaliOnArch.c
 ```
 
-Execute o script:
+Run the script:
 ```shell
 ./KaliOnArch
 ```
