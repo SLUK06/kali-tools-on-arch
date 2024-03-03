@@ -69,5 +69,8 @@ int main(void) {
         system(command);
     }
 
+    system("clear");
+    printf("\nSuccess, all tools are installed!!");
+
     return 0;
 }
