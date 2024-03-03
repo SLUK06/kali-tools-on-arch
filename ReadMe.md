@@ -15,21 +15,21 @@ Instala 241 ferramentas de pentest como Nmap, Aircrack-ng, Hydra, etc.
 
 Clone o repositório:
 ```shell
-    git clone https://github.com/SLUK06/kali-tools-on-arch.git
+git clone https://github.com/SLUK06/kali-tools-on-arch.git
 ```
 Entre no diretório criado:
 ```shell
-    cd kali-tools-on-arch
+cd kali-tools-on-arch
 ```
 
 Compile o script utilizando o gcc:
 ```shell
-    gcc -o KaliOnArch KaliOnArch.c
+gcc -o KaliOnArch KaliOnArch.c
 ```
 
 Execute o script:
 ```shell
-    ./KaliOnArch
+./KaliOnArch
 ```
 
 
